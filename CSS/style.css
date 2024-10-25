@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.logo {
+    margin: 50px;
+    margin-top: 50px;
+    padding: 50px;
+    border: 50px;
+    font-size: 20%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #f3e569;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+
+
+.logo a {
+    text-decoration: none;
+    color: #f3e569;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #ffef11;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+    background: url(Imagenes/header.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.tilte {
+    margin-bottom: 40px;
+    font-size: 60%;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 60px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home {
+    margin: 0 10px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d;
+}
+
+.trabajos-laura {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.trabajos-laura .trabajo {
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 17rem;
+    text-align: center;
+    margin: 10rem;
+    color: #fff;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+}
+
+.price {
+    background: url(img/costo.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.contain {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    
+    .tilte {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 120vh;
+    }
+    
+}
+
+.instagram {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
